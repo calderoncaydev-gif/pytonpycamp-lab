@@ -1,0 +1,26 @@
+CorrelationId: 6b225632-e66e-4c0a-8223-6e67ec7c96ce
+UTC DateTime: 10/30/2025 02:44:01
+
+The following files/folders have not been downloaded
+0. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_internal/operations/__init__.py
+1. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_internal/operations/build/__init__.py
+2. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_internal/resolution/__init__.py
+3. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_internal/resolution/legacy/__init__.py
+4. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_internal/resolution/resolvelib/__init__.py
+5. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_internal/utils/__init__.py
+6. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_vendor/chardet/cli/__init__.py
+7. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_vendor/chardet/metadata/__init__.py
+8. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_vendor/resolvelib/compat/__init__.py
+9. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_vendor/urllib3/contrib/__init__.py
+10. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py
+11. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_vendor/urllib3/packages/__init__.py
+12. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py
+13. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pip-23.1.2.dist-info/REQUESTED
+14. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pkg_resources/_vendor/__init__.py
+15. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/pkg_resources/_vendor/jaraco/__init__.py
+16. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/setuptools/_vendor/__init__.py
+17. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/setuptools/_vendor/jaraco/__init__.py
+18. mysql/arquitectura_mvc/arquitectura/Lib/site-packages/setuptools-65.5.0.dist-info/REQUESTED
+19. mysql/arquitectura_mvc/database/migrations.py
+20. mysql/arquitectura_mvc/model/confi.py
+21. mysql/MD
