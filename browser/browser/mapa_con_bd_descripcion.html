@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5d73c760c1569f165c432a6d6ed92227 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5d73c760c1569f165c432a6d6ed92227" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5d73c760c1569f165c432a6d6ed92227 = L.map(
+                "map_5d73c760c1569f165c432a6d6ed92227",
+                {
+                    center: [-33.45694, -70.64827],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_155b7459df30ec47e130eb2feef9bc53 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_155b7459df30ec47e130eb2feef9bc53.addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            var marker_efa9657c050ab7d4a5f217990dcfac7d = L.marker(
+                [-33.422222, -70.55355],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_efa9657c050ab7d4a5f217990dcfac7d.bindTooltip(
+                `<div>
+                     Latitud: -33.422222<br>Longitud: -70.55355<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16a3a7ea00eaa4710776db68896c7897 = L.marker(
+                [-33.413193, -70.540716],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_16a3a7ea00eaa4710776db68896c7897.bindTooltip(
+                `<div>
+                     Latitud: -33.413193<br>Longitud: -70.540716<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4300eee1b6937780410c9c3e703c6a1 = L.marker(
+                [-33.421497, -70.537675],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_c4300eee1b6937780410c9c3e703c6a1.bindTooltip(
+                `<div>
+                     Latitud: -33.421497<br>Longitud: -70.537675<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cda4598218e391e0408063058a177082 = L.marker(
+                [-33.458934, -70.572393],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_cda4598218e391e0408063058a177082.bindTooltip(
+                `<div>
+                     Latitud: -33.458934<br>Longitud: -70.572393<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1752eb139e52dc6779634d6f3d97c49f = L.marker(
+                [-33.508701, -70.604383],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_1752eb139e52dc6779634d6f3d97c49f.bindTooltip(
+                `<div>
+                     Latitud: -33.508701<br>Longitud: -70.604383<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7aff2d106a22e1e722e0e445efe0b8c6 = L.marker(
+                [-33.495521, -70.601895],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_7aff2d106a22e1e722e0e445efe0b8c6.bindTooltip(
+                `<div>
+                     Latitud: -33.495521<br>Longitud: -70.601895<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daa6c89a48b20cf32e674ad3fa297027 = L.marker(
+                [-33.593104013321344, -70.69847068346277],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_daa6c89a48b20cf32e674ad3fa297027.bindTooltip(
+                `<div>
+                     Latitud: -33.593104013321344<br>Longitud: -70.69847068346277<br>Descripción: Semáforo que dura 3 minutos, en la tarde tipo 5:30 cambia de tiempo, tiene 3 carriles.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0ff60903d8891dcde9493e00c480af6 = L.marker(
+                [-33.611565, -70.695148],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_c0ff60903d8891dcde9493e00c480af6.bindTooltip(
+                `<div>
+                     Latitud: -33.611565<br>Longitud: -70.695148<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15b2823828a54ac4e8bb5fc4f1cdc6d1 = L.marker(
+                [-33.61146, -70.6953],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_15b2823828a54ac4e8bb5fc4f1cdc6d1.bindTooltip(
+                `<div>
+                     Latitud: -33.61146<br>Longitud: -70.6953<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc74f74dc6220889f909dec0425bbe1b = L.marker(
+                [-33.436239, -70.608149],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_dc74f74dc6220889f909dec0425bbe1b.bindTooltip(
+                `<div>
+                     Latitud: -33.436239<br>Longitud: -70.608149<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d42692bc98c8b2341823ac72ea694d8f = L.marker(
+                [-33.515833, -70.598308],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_d42692bc98c8b2341823ac72ea694d8f.bindTooltip(
+                `<div>
+                     Latitud: -33.515833<br>Longitud: -70.598308<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cbe8ce5ce354760db2a0e67f33a251c = L.marker(
+                [-33.447112, -70.630297],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_6cbe8ce5ce354760db2a0e67f33a251c.bindTooltip(
+                `<div>
+                     Latitud: -33.447112<br>Longitud: -70.630297<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e731ad2aed3cd21e4c7f9f077a3e2e56 = L.marker(
+                [-33.408053849868054, -70.567633453431],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_e731ad2aed3cd21e4c7f9f077a3e2e56.bindTooltip(
+                `<div>
+                     Latitud: -33.408053849868054<br>Longitud: -70.567633453431<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de6fab35360a2f9afd34d4ab1fa20fa7 = L.marker(
+                [-33.470263, -70.65972],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_de6fab35360a2f9afd34d4ab1fa20fa7.bindTooltip(
+                `<div>
+                     Latitud: -33.470263<br>Longitud: -70.65972<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23ba1a543716ca0ea086b5c1f69069d6 = L.marker(
+                [-33.460585, -70.656484],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_23ba1a543716ca0ea086b5c1f69069d6.bindTooltip(
+                `<div>
+                     Latitud: -33.460585<br>Longitud: -70.656484<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89bbcdbd5139657790149cce644f6369 = L.marker(
+                [-33.608407, -70.703967],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_89bbcdbd5139657790149cce644f6369.bindTooltip(
+                `<div>
+                     Latitud: -33.608407<br>Longitud: -70.703967<br>Descripción: Tiene dos carriles, de tiempo corto aproximadamente 2 minutos o 1 minuto y medio y no genera mucho tráfico.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfa64d92bfafa2fcee566f85e0f00130 = L.marker(
+                [-33.576327, -70.692201],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_bfa64d92bfafa2fcee566f85e0f00130.bindTooltip(
+                `<div>
+                     Latitud: -33.576327<br>Longitud: -70.692201<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5b7da963f743cf8b69a61f1ecf99df5 = L.marker(
+                [-33.547184, -70.587926],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_c5b7da963f743cf8b69a61f1ecf99df5.bindTooltip(
+                `<div>
+                     Latitud: -33.547184<br>Longitud: -70.587926<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46080643e3eb81e3ca43cd41ba0a6c4b = L.marker(
+                [-33.431451, -70.626501],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_46080643e3eb81e3ca43cd41ba0a6c4b.bindTooltip(
+                `<div>
+                     Latitud: -33.431451<br>Longitud: -70.626501<br>Descripción: None
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d682c088e19290ad61f8355dfaaa4284 = L.marker(
+                [-33.430542, -70.627863],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_d682c088e19290ad61f8355dfaaa4284.bindTooltip(
+                `<div>
+                     Latitud: -33.430542<br>Longitud: -70.627863<br>Descripción: semáforo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6072dddfeab36936d769814d73067fa = L.marker(
+                [-33.462798, -70.737737],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_f6072dddfeab36936d769814d73067fa.bindTooltip(
+                `<div>
+                     Latitud: -33.462798<br>Longitud: -70.737737<br>Descripción: este semáforo queda en pudahuel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00c8c0da640d8d26137cd6d22e4caf00 = L.marker(
+                [-33.471289, -70.737069],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_00c8c0da640d8d26137cd6d22e4caf00.bindTooltip(
+                `<div>
+                     Latitud: -33.471289<br>Longitud: -70.737069<br>Descripción: semáforo está en teniente cruz pudahuel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_802662038a9027d8f06d15cc123f88ce = L.marker(
+                [-33.449303, -70.660018],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_802662038a9027d8f06d15cc123f88ce.bindTooltip(
+                `<div>
+                     Latitud: -33.449303<br>Longitud: -70.660018<br>Descripción: otro semáforo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4839681da09a12a29bf65e01ec26bbd5 = L.marker(
+                [-33.428345, -70.617197],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_4839681da09a12a29bf65e01ec26bbd5.bindTooltip(
+                `<div>
+                     Latitud: -33.428345<br>Longitud: -70.617197<br>Descripción: otro semáforo 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_236d914d425f0c7e6e389a05fd2c9d99 = L.marker(
+                [-33.592218, -70.693931],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_236d914d425f0c7e6e389a05fd2c9d99.bindTooltip(
+                `<div>
+                     Latitud: -33.592218<br>Longitud: -70.693931<br>Descripción: semáforo que está en san bernardo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8057dff621cdedf5fd81bb896b18acee = L.marker(
+                [-33.452303, -70.62911],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_8057dff621cdedf5fd81bb896b18acee.bindTooltip(
+                `<div>
+                     Latitud: -33.452303<br>Longitud: -70.62911<br>Descripción: semáforo que está en irrazabal 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fadc8957618e2d53236399258d10c8f = L.marker(
+                [-33.479501, -70.598997],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_5fadc8957618e2d53236399258d10c8f.bindTooltip(
+                `<div>
+                     Latitud: -33.479501<br>Longitud: -70.598997<br>Descripción: semáforo que está macul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_398cbd9262af4ee3d7453563de84777f = L.marker(
+                [-33.490185, -70.599693],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_398cbd9262af4ee3d7453563de84777f.bindTooltip(
+                `<div>
+                     Latitud: -33.490185<br>Longitud: -70.599693<br>Descripción: tambien está macul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7337997d753740bbd71ec6adbb402e62 = L.marker(
+                [-33.490185, -70.599693],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_7337997d753740bbd71ec6adbb402e62.bindTooltip(
+                `<div>
+                     Latitud: -33.490185<br>Longitud: -70.599693<br>Descripción: semáforo está en camino agricola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5f9fec6413975582b72a169474f44d0 = L.marker(
+                [-33.464784, -70.705166],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_f5f9fec6413975582b72a169474f44d0.bindTooltip(
+                `<div>
+                     Latitud: -33.464784<br>Longitud: -70.705166<br>Descripción: este semaforo esta en estación central
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2957278f8fd5234e58a1df35a23023e0 = L.marker(
+                [-33.419991, -70.599247],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_2957278f8fd5234e58a1df35a23023e0.bindTooltip(
+                `<div>
+                     Latitud: -33.419991<br>Longitud: -70.599247<br>Descripción: está en el bosque
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ffe200829717631641dffd1d1cf902f = L.marker(
+                [-33.431759, -70.584865],
+                {}
+            ).addTo(map_5d73c760c1569f165c432a6d6ed92227);
+        
+    
+            marker_5ffe200829717631641dffd1d1cf902f.bindTooltip(
+                `<div>
+                     Latitud: -33.431759<br>Longitud: -70.584865<br>Descripción: Este está en tobalaba providencia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
